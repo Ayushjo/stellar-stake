@@ -1,11 +1,12 @@
 #![no_std]
 use soroban_sdk::{contract, contractimpl, contracttype, token, Address, Env};
 
-// Inter-contract interface for the reward token (STKR)
-// StakingPool calls reward_token.mint() to distribute rewards
+// Inter-contract interface for the reward token (STKR).
+// StakingPool::claim() calls reward_token::Client::mint() cross-contract.
 mod reward_token {
     use soroban_sdk::{contractclient, Address, Env};
 
+    #[allow(dead_code)]
     #[contractclient(name = "Client")]
     pub trait Interface {
         fn mint(env: Env, to: Address, amount: i128);
