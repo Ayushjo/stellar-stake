@@ -10,4 +10,14 @@ export default defineConfig({
       globals: { Buffer: true, global: true, process: true },
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          stellar: ['@stellar/stellar-sdk'],
+          wallets: ['@creit.tech/stellar-wallets-kit'],
+        },
+      },
+    },
+  },
 })
