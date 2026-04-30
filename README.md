@@ -6,8 +6,7 @@ A production-ready DeFi staking dApp on Stellar Testnet. Stake XLM, earn STKR to
 
 ## Live Demo
 
-> **[🚀 Live App →](https://stellar-stake.vercel.app)**
-> *(Update after Vercel deploy)*
+> **[🚀 Live App →](https://stellar-stake-amber.vercel.app)**
 
 ## Demo Video
 
