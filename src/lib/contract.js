@@ -1,7 +1,5 @@
-import * as StellarSdk from '@stellar/stellar-sdk'
+import { rpc as SorobanRpc, TransactionBuilder, Networks, Contract, scValToNative, nativeToScVal, Address } from '@stellar/stellar-sdk'
 import { signTx } from './wallets.js'
-
-const { SorobanRpc, TransactionBuilder, Networks, Contract, scValToNative, nativeToScVal, Address } = StellarSdk
 
 export const POOL_ID    = import.meta.env.VITE_POOL_ID    || ''
 export const TOKEN_ID   = import.meta.env.VITE_TOKEN_ID   || ''
