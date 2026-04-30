@@ -11,8 +11,7 @@ A production-ready DeFi staking dApp on Stellar Testnet. Stake XLM, earn STKR to
 
 ## Demo Video
 
-> **[▶ Demo Video →](https://youtu.be/placeholder)**
-> *(Update after recording)*
+> **[▶ Demo Video →](https://www.loom.com/share/7f69e605f04045869dd2a43f1659a6fc)**
 
 ---
 
@@ -256,6 +255,20 @@ stellar-stake/
 ├── .env                          ← Deployed contract IDs (safe to commit)
 └── README.md
 ```
+
+---
+
+## Screenshots
+
+### Staking Dashboard
+![Staking Dashboard](./Stake.png)
+
+### Mobile Responsive
+![Mobile View](./MobileScreenshot.png)
+
+### CI/CD Pipeline
+![CI/CD 1](./CI-CD-1.png)
+![CI/CD 2](./CI-CD-2.png)
 
 ---
 
